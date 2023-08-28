@@ -1,0 +1,21 @@
+.prenavContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.leftLinksList{
+    padding: 0;
+    list-style: none;
+    margin: 0;
+    display: grid;
+    grid-template-columns: min-content 1fr;
+    column-gap: 15px;
+    
+}
+.leftLinksListSecond{
+    justify-self: start;
+}
+.signOption{
+    justify-self: end;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
