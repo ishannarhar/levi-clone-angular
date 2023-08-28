@@ -1,6 +1,9 @@
 .prenavContainer{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    border-bottom: 1px solid #ddd;
+    font-size: 12px;
+    margin-bottom: 40px;
 }
 .leftLinksList{
     padding: 0;
@@ -11,11 +14,22 @@
     column-gap: 15px;
     
 }
+a{
+    border: 1px solid block;
+}
+a:visited,a:hover{
+    cursor: pointer;
+}
 .leftLinksListSecond{
     justify-self: start;
 }
 .signOption{
     justify-self: end;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr min-content;
+    column-gap: 12px;
+}
+.signOptionLinkImage img{
+    height: 14px;
+    width: 14px;
 }
