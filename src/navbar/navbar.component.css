@@ -1,21 +1,41 @@
 .navbarContainer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    justify-items: start;
 }
 .navbarLinks{
     display: grid;
     grid-template-columns: min-content min-content min-content max-content min-content;
     column-gap: 20px;
+    align-self: center;
 }
 .navLogo{
     justify-self: center;
 }
 svg{
-    height: 30px;
+    height: 25px;
 }
 .navSearch{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 10px;
+    grid-template-columns: max-content max-content max-content;
+    column-gap: 30px;
+    justify-self: end;
+    align-self: center;
     
+}
+.navSearchInput input,.navSearchInput input::placeholder{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 210px;
+    font: 1.25rem;
+    
+}
+.navSearchInput input:hover{
+    cursor: pointer;
+    
+}
+.navSearchInput input:focus,.navSearchInput input:visited,.navSearchInput input:active{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
 }
