@@ -1,0 +1,21 @@
+.navbarContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.navbarLinks{
+    display: grid;
+    grid-template-columns: min-content min-content min-content max-content min-content;
+    column-gap: 20px;
+}
+.navLogo{
+    justify-self: center;
+}
+svg{
+    height: 30px;
+}
+.navSearch{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    
+}

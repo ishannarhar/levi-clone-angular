@@ -8,3 +8,19 @@
     margin: auto;
     
 }
+.navbar{
+    display: flex;
+    gap: 20px;
+    justify-content: left;
+}
+.heading{
+    width: fit-content;
+}
+.container{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    max-width: 10px;
+    height: auto;
+}
